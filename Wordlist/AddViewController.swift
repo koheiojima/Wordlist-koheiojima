@@ -31,6 +31,7 @@ class AddViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
     @IBAction func saveWord() {
         let wordDictionary = ["english": englishTextFiled.text!, "japanese": japaneseTextField.text!]
         

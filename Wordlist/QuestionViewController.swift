@@ -14,6 +14,7 @@ class QuestionViewController: UIViewController {
     @IBOutlet var questionLabel: UILabel!
     @IBOutlet var answerLabel: UILabel!
     
+    
     var isAnswered: Bool = false
     var wordArray: [Dictionary<String, String>] = []
     var shuffledWordArray: [Dictionary<String, String>] = []
