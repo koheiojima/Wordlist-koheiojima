@@ -198,14 +198,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZT-Z6-dih">
-                                <rect key="frame" x="66" y="487" width="232" height="91"/>
+                                <rect key="frame" x="69" y="494" width="232" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="答えを表示">
                                     <color key="titleColor" red="0.75802755503931785" green="1" blue="0.80072645236725648" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="nextButtonTapped" destination="hR2-DB-U17" eventType="touchUpInside" id="qmR-cL-kSG"/>
+                                    <action selector="nextButtonTapped" destination="hR2-DB-U17" eventType="touchUpInside" id="gxO-Uk-1us"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -213,6 +213,7 @@
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="Y8P-Mz-b2N" id="8m7-id-LwL"/>
+                        <outlet property="nextButton" destination="DZT-Z6-dih" id="UX2-AD-AAU"/>
                         <outlet property="questionLabel" destination="a13-RS-ayv" id="Uqo-Bz-dDW"/>
                         <segue destination="w7g-7d-fH5" kind="presentation" identifier="toFinishView" id="9D8-Nn-nJJ"/>
                     </connections>

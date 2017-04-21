@@ -62,7 +62,7 @@ class QuestionViewController: UIViewController {
             }else{
                 self.performSegue(withIdentifier: "toFinishView", sender: nil)
             }
-        }else{
+        } else {
             answerLabel.text = shuffledWordArray[nowNumber]["japanese"]
             isAnswered = true
             nextButton.setTitle("次へ", for: .normal)
